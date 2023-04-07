@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  background-color: #f7b8c4;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffd9e0;
+  padding-inline: 1.5rem;
+  height: 3rem;
+  align-items: center;
+}
+
+.sectionHeader2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2d4d7;
+  padding-inline: 1.5rem;
+  height: 7rem;
+  align-items: center;
+}
+
+.div-sectionHolder2 {
+  width: 33%;
+}
+
+.inicio {
+  display: flex;
+  justify-content: start;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.medio {
+  text-align: center;
+}
+
+.final {
+  text-align: end;
+  margin-right: 2rem;
+}
+.vinculosContactos {
+  text-decoration: none;
+  color: palevioletred;
+  margin-right: 2rem;
+  font-weight: 500;
+  font-size: large;
+}
+
+.redes {
+  width: 2rem;
+  height: 2rem;
+}
+
+.contenedorNavbar {
+  display: flex;
+  justify-content: center;
+}
+
+.menuNavegacion {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  list-style-type: none;
+  height: 3rem;
+}
+.elementoLista {
+  text-decoration: none;
+  color: palevioletred;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 8rem;
+}
+
+.bg-pink {
+  background-color: white;
+}
+
+@media screen and (max-width: 576px) {
+  .tarjetas {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    max-width: 80%;
+  }
+  .galeria {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+    max-width: 80%;
+  }
+
+  .galeria {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .tarjetas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    max-width: 80%;
+  }
+
+  .galeria {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.home {
+  width: 60%;
+  max-width: 100%;
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.formulario {
+  width: 50rem;
+  margin-top: 7rem;
+  max-width: 90%;
+}
+
+.imagen {
+  width: 18em;
+  height: 12em;
+  width: 100%;
+}
+
+.contenedorError {
+  max-width: 50%;
+  margin-top: 4rem;
+}
+
+#botonError {
+  text-decoration: none;
+  color: white;
+}
+
+.carrusel {
+  width: 40rem;
+  height: 30.5rem;
+}
+
+.alerta {
+  margin-top: 3rem;
+  border-radius: 5px;
+  text-align: center;
+}
